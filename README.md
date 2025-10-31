@@ -13,14 +13,6 @@ GrEAt is a dual-head transformer framework for anomaly detection in **tabular** 
 
 ---
 
-## 📄 Paper
-
-> **GrEAt: Generalizable Energy-based Anomaly Detection in Tabular Data**
-> Hajar Homayouni, Salimeh Sekeh, Hossein Shirazi — PVLDB (under review)
-> The paper formalizes the objectives, architecture, and evaluation protocol, and reports comprehensive results and mutation-based robustness analyses. 
-
----
-
 ## 📦 What’s in this repo
 
 * `GrEAt.ipynb` — end-to-end GrEAt training pipeline (two-phase training, energy margins, triplet loss, evaluation).
@@ -77,7 +69,7 @@ Experiments cover six real-world tabular datasets across biomedical, finance, an
 
 ---
 
-## 📊 Key Results (paper)
+## 📊 Key Results
 
 * **Known anomalies (Objective 2):**
   GrEAt attains top or near-top scores on all datasets, e.g., **Ecoli** (Acc **0.94**, F1 **0.97**), **Vertebral** (Acc **0.81**, F1 **0.88**), **Breast Cancer** (Acc **0.97**, F1 **1.00**), **Thyroid** (F1 **0.92**, within 0.02 Acc of best). See Table 2 in the paper for full comparisons. 
@@ -96,20 +88,9 @@ Links are provided in the Datasets directory.
 
 ## 🧪 Reproducing the paper’s settings
 
-* Use the **two-phase** schedule exactly as in the notebook.
+* Use the **two-phase** schedule as in the notebook.
 * Follow the **loss-weight grid** in Phase 2 (the paper fixes (\lambda_{\text{cls}}=0.5) and distributes the remaining 0.5 among (\lambda_n,\lambda_a,\lambda_t) from {0.1, 0.2, 0.25}). 
 * Evaluate with **Accuracy, Precision, Recall, F1**, and (for robustness) **mutation analysis** (A1/A2/A3). 
-
----
-
-## 🗺️ Repo structure (suggested)
-
-```
-/notebooks
-  ├── GrEAt.ipynb        # main pipeline
-  └── baseLine.ipynb     # baselines & comparisons
-/datasets                    # (optional) place local copies of datasets here
-```
 
 ---
 
@@ -121,9 +102,7 @@ If you use GrEAt, please cite the paper:
 @article{Homayouni2026GrEAt,
   title   = {GrEAt: Generalizable Energy-based Anomaly Detection in Tabular Data},
   author  = {Hajar Homayouni and Salimeh Sekeh and Hossein Shirazi},
-  journal = {Proceedings of the VLDB Endowment (under review)},
-  year    = {2026},
-  note    = {PVLDB Reference Format; doi:XX.XX/XXX.XX}
+  year    = {2025}
 }
 ```
 
