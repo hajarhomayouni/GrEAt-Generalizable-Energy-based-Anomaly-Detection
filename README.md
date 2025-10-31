@@ -116,6 +116,6 @@ This work benefitted from the **Microsoft Accelerating Foundation Models Researc
 
 ## 📬 Contact
 
-Questions or issues? Please open a GitHub issue or reach out to the authors (see paper header for affiliations/emails). 
+Questions or issues? Please open a GitHub issue or reach out to the authors (hhomayouni@sdsu.edu). 
 
 ---
