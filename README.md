@@ -86,7 +86,7 @@ Links are provided in the Datasets directory.
 
 ---
 
-## 🧪 Reproducing the paper’s settings
+## 🧪 Reproducing the results
 
 * Use the **two-phase** schedule as in the notebook.
 * Follow the **loss-weight grid** in Phase 2 (the paper fixes (\lambda_{\text{cls}}=0.5) and distributes the remaining 0.5 among (\lambda_n,\lambda_a,\lambda_t) from {0.1, 0.2, 0.25}). 
