@@ -99,23 +99,10 @@ Links are provided in the Datasets directory.
 If you use GrEAt, please cite the paper:
 
 ```bibtex
-@article{Homayouni2026GrEAt,
+@article{2026GrEAt,
   title   = {GrEAt: Generalizable Energy-based Anomaly Detection in Tabular Data},
-  author  = {Hajar Homayouni and Salimeh Sekeh and Hossein Shirazi},
+  author  = {Anonymous},
   year    = {2025}
 }
 ```
 
----
-
-## 🙏 Acknowledgment
-
-This work benefitted from the **Microsoft Accelerating Foundation Models Research (AFMR)** grant program. 
-
----
-
-## 📬 Contact
-
-Questions or issues? Please open a GitHub issue or reach out to the authors (hhomayouni@sdsu.edu). 
-
----
